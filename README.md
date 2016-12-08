@@ -31,11 +31,10 @@ You can also use the following link to access the git repository:
     
     To run on your local machine, paste the following code into the R console:
     
-    	```R
         install.packages(c("shiny", "leaflet", "rnoaa"), repos="http://cran.rstudio.com/")
 		library(shiny)
 		runGitHub("Shiny_ClimateExplorer", "awentland90")
-		```
+
         
 
 Citations
