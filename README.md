@@ -1,11 +1,3 @@
----
-title: Shiny Climate Explorer
-description: A web app built on R's Shiny library to explore the GHCN climatology data for individual stations
-author: Andy Wentland
-created:  2016 Dec 07
-
----
-
 Shiny Climate Explorer
 =========
 
@@ -36,6 +28,14 @@ You can also use the following link to access the git repository:
     Get it using the following command:
 
         $ git clone git://github.com/awentland90/Shiny_ClimateExplorer.git
+    
+    To run on your local machine, paste the following code into the R console:
+    
+    	```R
+        install.packages(c("shiny", "leaflet", "rnoaa"), repos="http://cran.rstudio.com/")
+		library(shiny)
+		runGitHub("Shiny_ClimateExplorer", "awentland90")
+		```
         
 
 Citations
