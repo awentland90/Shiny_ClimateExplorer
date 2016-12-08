@@ -34,8 +34,17 @@ You can also use the following link to access the git repository:
         install.packages(c("shiny", "leaflet", "rnoaa"), repos="http://cran.rstudio.com/")
 		library(shiny)
 		runGitHub("Shiny_ClimateExplorer", "awentland90")
+	
+	You will need an API key to utilize the ncdc function from the rnoaa library.
+	You can register (free) for a key here:
+	<https://www.ncdc.noaa.gov/cdo-web/token>
+	 
+	I personally put the key in my .bash_proile:
+		export NOAA_KEY="API_key_here"
+	
+	You can find other options for using the key on the rnoaa github page here:
+	[rnoaa NCDC Authentication](https://github.com/ropensci/rnoaa/tree/492cf5a4ae440e35a909c5e4721ee302166cdd47#ncdc-authentication)
 
-        
 
 Citations
 --------
