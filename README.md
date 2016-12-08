@@ -23,26 +23,33 @@ You can also use the following link to access the git repository:
 
 *   **Git Repository:**
 
-   git repository is at: <https://github.com/awentland90/Shiny_ClimateExplorer>
+   The git repository can be found at: <https://github.com/awentland90/Shiny_ClimateExplorer>
    
     Get it using the following command:
 
         $ git clone git://github.com/awentland90/Shiny_ClimateExplorer.git
-    
+        
+*   **Run Locally:**
+
     To run on your local machine, paste the following code into the R console:
     
         install.packages(c("shiny", "leaflet", "rnoaa"), repos="http://cran.rstudio.com/")
 		library(shiny)
 		runGitHub("Shiny_ClimateExplorer", "awentland90")
-	
+
+*   **NOAA/NCDC API Key:**
+
 	You will need an API key to utilize the ncdc function from the rnoaa library.
 	You can register (free) for a key here:
-	<https://www.ncdc.noaa.gov/cdo-web/token>
+	
+	[NCDC API Token Request](https://www.ncdc.noaa.gov/cdo-web/token)
 	 
 	I personally put the key in my .bash_proile:
+	
 		export NOAA_KEY="API_key_here"
 	
 	You can find other options for using the key on the rnoaa github page here:
+
 	[rnoaa NCDC Authentication](https://github.com/ropensci/rnoaa/tree/492cf5a4ae440e35a909c5e4721ee302166cdd47#ncdc-authentication)
 
 
