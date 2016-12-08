@@ -9,12 +9,8 @@ Shiny Climate Explorer
 
 ![Shiny_ClimateExplorer dualmode](https://github.com/awentland90/Shiny_ClimateExplorer/blob/master/data/station_explorer.png)
 
-### About
 
-![Shiny_ClimateExplorer dualmode](https://github.com/awentland90/Shiny_ClimateExplorer/blob/master/data/about.png)
-
-
-Download
+Download & Installation
 --------
 
 ### Latest Code on GitHub
@@ -44,7 +40,7 @@ You can also use the following link to access the git repository:
 	
 	[NCDC API Token Request](https://www.ncdc.noaa.gov/cdo-web/token)
 	 
-	I personally put the key in my .bash_proile:
+	I personally put the key in my .bash_profile:
 	
 		export NOAA_KEY="API_key_here"
 	
@@ -70,3 +66,11 @@ Citations
 	Scott Chamberlain (NA). rnoaa: 'NOAA' Weather Data from R.
 	
 	R package version 0.6.6. <https://github.com/ropensci/rnoaa>
+	
+*   **Leaflet (R library)**
+	
+	Joe Cheng and Yihui Xie (2016). leaflet: Create Interactive Web Maps
+	
+	with the JavaScript 'Leaflet' Library. R package version 1.0.1.
+	
+	<https://CRAN.R-project.org/package=leaflet>
